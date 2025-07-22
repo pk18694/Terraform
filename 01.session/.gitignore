@@ -1,0 +1,35 @@
+# Local .terraform directories
+**/.terraform/*
+!.terraform/*.tfstate.backup
+
+# .tfstate files (store infrastructure state)
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Terraform plan files
+*.tfplan
+
+# Sensitive override files (optional)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform variable files (if sensitive data like passwords)
+*.auto.tfvars
+*.auto.tfvars.json
+terraform.tfvars
+terraform.tfvars.json
+
+# Ignore CLI configuration file
+.terraformrc
+terraform.rc
+
+# IDE-specific files (optional but useful)
+.vscode/
+.idea/
+*.swp
+.DS_Store
